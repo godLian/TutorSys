@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.List;
 import java.util.Random;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.struts2.ServletActionContext;
 import org.hibernate.Session;
@@ -92,10 +94,13 @@ public class FileUploadAction extends ActionSupport {
 		}
 		
 		
-		result=img_id;
+		result="上传成功!";
 		
 		System.out.println(result);
-		
+		HttpServletRequest request = ServletActionContext.getRequest();
+		String user_id=(String) request.getSession().getAttribute("user_id");
+		imagesDao.savetouser(user_id, img_id);
+		System.out.println("sessionScop:"+user_id);
 		return SUCCESS;
 	}
 	

@@ -34,8 +34,8 @@
 	 -->
     <package name="default" namespace="/" extends="struts-default">
 		<action name="upload" class="com.lhn.tutor.action.FileUploadAction">
-			<result>/user/User_upload_success.jsp</result>
-			<result name="input">/user/User_upload_error.jsp</result>
+			<result>/user/User_person_center.jsp</result>
+			<result name="input">/user/User_person_center.jsp</result>
 			<!-- 配置拦截器限制上传文件类型及大小 -->
 			<interceptor-ref name="fileUpload">
 				<param name="allowedTypes">image/bmp,image/x-png,image/gif,image/jpeg</param>

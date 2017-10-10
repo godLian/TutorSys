@@ -227,6 +227,12 @@
                             <a href="http://longyan.ygjj.com/Teacher/InfoManage.aspx">修改完善资料</a>
                         </div>
                         <div class="item">
+                            <a href="http://longyan.ygjj.com/Teacher/InfoManage.aspx">修改完善资料</a>
+                        </div>
+                        <div class="item">
+                            <a href="http://longyan.ygjj.com/Teacher/InfoManage.aspx">修改完善资料</a>
+                        </div>
+                        <div class="item">
                             <a href="http://longyan.ygjj.com/Teacher/PasswordManage.aspx">更改密码</a>
                         </div>
                         <div class="item">

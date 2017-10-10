@@ -266,7 +266,7 @@
 							});
 						</script>
                          <h2>&nbsp;文件上传</h2>
-                         <h2>${sessionScope.user_id}文件上传</h2>
+                         <h2>文件上传</h2>
 					  	 <img id="previewImg" src="../images/idcard.png" width="80" height="80" />
 					  	 <form action="<%=path%>/upload.action" method="post" enctype="multipart/form-data">
 					  		请选择图片：<input id="myfile" name="upload" type="file"/><br>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="TutorWebsite"
-  id="myeclipse.1507192553123"
-  context-root="/TutorWebsite"
-  j2ee-spec="6.0"
-  archive="TutorWebsite.war">
+  name="TutorWeb"
+  id="myeclipse.1507700165786"
+  context-root="/TutorWeb"
+  j2ee-spec="5.0"
+  archive="TutorWeb.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>

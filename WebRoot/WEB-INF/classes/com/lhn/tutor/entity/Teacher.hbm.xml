@@ -9,18 +9,10 @@
 			<generator class="assigned"></generator>
 		</id>
 		<property name="name" type="java.lang.String"/>
-		<property name="idcard" type="java.lang.String"/>
-		<property name="gender" type="java.lang.String"/>
-		<property name="birthday" type="java.lang.String"/>
-		<property name="place" type="java.lang.String"/>
+		<property name="profile" type="java.lang.String"/>
+		<property name="price" type="java.lang.String"/>
 		<property name="tel" type="java.lang.String"/>
-		<property name="online" type="java.lang.String"/>
-		<property name="email" type="java.lang.String"/>
-		<property name="familyaddress" type="java.lang.String"/>
-		<property name="zipcode" type="java.lang.String"/>
-		<property name="user_id" type="int"/>
-		<property name="identity" type="int"/>
-		<property name="education" type="int"/>
-		<property name="resume" type="int"/>
+		<property name="firstteach" type="java.lang.String"/>
+		<property name="secondteach" type="java.lang.String"/>
 	</class>
 </hibernate-mapping>

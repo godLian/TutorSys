@@ -19,9 +19,7 @@
         
         <mapping resource="com/lhn/tutor/entity/User.hbm.xml"/>
         <mapping resource="com/lhn/tutor/entity/Images.hbm.xml"/>
-        <!-- 
         <mapping resource="com/lhn/tutor/entity/Teacher.hbm.xml"/>
-     -->
     </session-factory>
 
 </hibernate-configuration>

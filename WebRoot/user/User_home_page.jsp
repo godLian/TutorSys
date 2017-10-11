@@ -313,7 +313,7 @@
 						<div class="certify_box">
 							<ul class="clearfix">
 								<!-- 教师数据循环begin -->
-								
+								<s:iterator value="#session.mathList" var="math">
 								<li>
 									<dl class="clearfix">
 										<dt class="img">
@@ -322,12 +322,10 @@
 										</dt>
 										<dd>
 											<div class="name">
-												<a href="#" target="_blank"><strong class="mr">小艾</strong>
+												<a href="#" target="_blank"><strong class="mr"><s:property value="#math.id"/></strong>
 												</a> 
-												<em class="renzheng-2 mr">学生证认证</em>&nbsp;
-												<em class="renzheng-4 mr">身份证认证</em>&nbsp;
-												<em class="renzheng-5 mr">本科毕业证</em>&nbsp;
-												<em class="renzheng-7 mr">英语四级认证</em>
+												<em class="renzheng-2 mr">学生认证</em>&nbsp;
+												<em class="renzheng-4 mr">身份认证</em>&nbsp;
 											</div>
 											<div class="ug">大学生家教</div>
 											<div class="lc">
@@ -342,7 +340,7 @@
 										</dd>
 									</dl>
 								</li>
-								
+								</s:iterator>
 								<!-- 教师循环end -->
 								<li>
 									<dl class="clearfix">

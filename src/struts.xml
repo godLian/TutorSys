@@ -69,6 +69,7 @@
 
 	<package name="/teacher" namespace="/teacher" extends="struts-default">
 		<action name="*_*" class="com.lhn.tutor.action.{1}Action" method="{2}">
+			<result name="query_success">/user/User_home_page.jsp</result>
             <result name="input">/user/User_register_teacher2.jsp</result>
 			<result name="success_add">/user/User_register_success.jsp</result>
 			<result name="parent_register">/user/User_register_parent1.jsp</result>
